@@ -1,0 +1,19 @@
+       <!-- Open Graph data Facebook -->
+       <meta property="og:title" content="Renavadora Fast Clean">
+       <meta property="og:type" content="article">
+       <meta property="og:url" content="http://www.renovadorafastclean.com.br/">
+       <meta property="og:image" content="http://www.renovadorafastclean.com.br/renovadorafastclean.jpg">
+       <meta property="og:description" content="A melhor na limpeza de tapetes e carpetes do Brasil">
+
+       <!-- Schema.org markup for Google+ -->
+       <meta itemprop="name" content="Renavadora Fast Clean">
+       <meta itemprop="description" content="A melhor na limpeza de tapetes e carpetes do Brasil">
+       <meta itemprop="image" content="http://www.renovadorafastclean.com.br/renovadorafastclean.jpg">
+
+       <!-- Twitter Card data -->
+       <meta name="twitter:card" content="summary_large_image">
+       <meta name="twitter:site" content="@renovadorafastclean">
+       <meta name="twitter:title" content="Renovadora Fast Clean">
+       <meta name="twitter:description" content="A melhor na limpeza de tapetes e carpetes do Brasil">
+       <meta name="twitter:image" content="http://www.example.com/renovadorafastclean.jpg">
+       <meta name="twitter:domain" content="http://www.renovadorafastclean.com.br/">

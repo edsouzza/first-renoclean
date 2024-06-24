@@ -1,0 +1,163 @@
+/* HEIGHT 100% */
+html,body {height: 100%;}
+.bloco {min-height: 100%; padding-top: 94px;}
+
+/* COLORS */
+.blue-logo{background-color: #33ccff; margin-right: 15px;}
+
+/* LOGO */
+.logo_text{font-size: 0; margin: 0;}
+.logo_img{width: 85px; height: 85px;}
+
+/* MENU */
+.navbar {background-color: transparent; transition: background 0.5s linear;}
+.navbar ul a:hover {color: #33ccff; background-color:transparent;}
+.nav-color {background-color: rgba(0,0,0,0.7); transition: background 0.5s linear;}
+.active{background-color:transparent; color:#33ccff;}
+
+/* HOME */
+.home {animation: mudarbg 20s infinite; background-image: url('../img/bg1.jpg'); background-repeat: no-repeat; background-size: cover; position: relative;}
+.home .color-text{color: #33ccff;}/*texto h2 com nome da empresa em azul da marca*/
+
+/* HOME BANNER */
+.banner {margin-top: 30px;}
+.banner h2{font-size: 5rem; font-weight: 900; text-transform: uppercase; color: #33ccff;}
+.banner h3{font-size: 2.3rem; font-weight: 900; text-transform: uppercase; color: #fff;}
+.banner p{font-size: 1.5rem; line-height: 1.8rem;}
+
+/* HOME ANIMATION */
+@keyframes mudarbg{
+    40% {background-image: url('../img/bg2.jpg');}    
+    100% {background-image: url('../img/bg1.jpg');}
+}
+
+/* BOX POLITICA DE PRIVACIDADE*/
+.box-cookies {width:100%; height: 90px; position: absolute; bottom: 0;}
+.box-cookies {padding: 10px 0;}
+.box-cookies {background-color: rgba(110, 110, 110, 0.3)};
+.box-cookies {font-size: 1.2rem;}
+/* BOTÃO POLITICA DE PRIVACIDADE*/
+.btn-cookies {display:inline;  background-color: #fff; padding: 10px 25px; border-radius: 3px; float: right; margin-top: -55px; margin-right: 300px;}
+.btn-cookies { color:black; font-weight: 500; cursor: pointer;}
+
+/*TITULO E PARAGRAFO*/
+.titulo {font-size: 2rem; text-transform: uppercase;}
+.titulo::after{content: ''; display: block; width: 100px; border-top: 2px solid #33ccff; margin: 15px auto;}
+.paragrafo {line-height: 1.8rem;}
+
+/* SOBRE */
+.sobre {background-image: url('../img/textura1.png');}
+.sobre h2{margin-top: 45px; margin-bottom: 22px;}
+.sobre p{line-height: 1.8rem; text-align: justify; }
+/*SOBRE MISSÃO VISAO VALORES*/
+.sobre .missao-visao-valores{padding: 25px 0; }
+.sobre .missao-visao-valores .icon{color: #fff; margin-bottom: 5px;}
+.sobre .missao-visao-valores h3{color: #fff; font-size: 1.5rem; text-transform: uppercase; margin-top: 5px; }
+.sobre .missao-visao-valores p{color: #fff; text-align: center; }
+
+/*SERVIÇOS*/
+.servicos {background-image: url('../img/textura2.png'); margin-top: -20px;}
+.servicos h2{margin-top: 60px; margin-bottom: 35px;}
+.servicos p{margin-top: 80px;}
+.servicos h1 {font-size: 2.5rem; color: #33ccff; text-transform: uppercase; text-shadow: 2px 2px #fff;}
+.servicos h3 {font-size: 1rem; color: #fff;}
+.servicos .modal p{text-align: justify;}
+
+/* FOTOS */
+.fotos {background-image: url('../img/textura1.png'); margin-top: 0px;}
+.fotos h4 {font-size: 1.2rem; text-transform: uppercase; font-weight: 900;}
+.fotos h2{margin-top: 45px; margin-bottom: 35px;}
+.fotos p{line-height: 1.8rem; text-align: center; }
+
+.fotos1 {background-image: url('../img/textura1.png'); margin-top: 0px;}
+.fotos1 h4 {font-size: 1.2rem; text-transform: uppercase; font-weight: 900;}
+.fotos1 h2{margin-top: 45px; margin-bottom: 35px;}
+.fotos1 p{line-height: 1.8rem; text-align: center; }
+
+/* VIDEOS */
+.videos {background-image: url('../img/textura1.png'); margin-top: -20px;}
+.videos h4 {font-size: 1.2rem; text-transform: uppercase; font-weight: 900;}
+.videos h2{margin-top: 45px; margin-bottom: 35px;}
+.videos p{line-height: 1.8rem; text-align: center; }
+.videos .video{border: 1px solid #ccc;}
+
+/*CONTATO / FONES */
+.contato {background-image: url('../img/textura1.png'); margin-top: -20px;}
+.contato h4 {font-size: 1.2rem; text-transform: uppercase; font-weight: 900;}
+.contato h2{margin-top: 45px; margin-bottom: 35px;}
+.contato .redes {background-image: url('../img/textura2.png'); min-height: 560px; padding: 30px; margin-top: 45px; border-radius: 5px 5px;}
+.contato .redes a{color: #fff;}
+
+/*CONTATO / FORMULARIO*/
+.contato .formulario {min-height: 560px; padding: 30px; margin-top: 45px; border-radius: 5px 5px;}
+
+/* RODAPE */
+.rodape {background-image: url('../img/bg-rodape.jpg'); background-repeat: no-repeat; background-size: cover; padding: 30px 0 -5px 0;}
+.rodape a{color: #fff;}
+
+/* CUSTOM */
+.navbar-fixed {
+  position: absolute;
+  height: 94px;  
+}
+
+nav.nav-extended .nav-wrapper {
+  min-height: 94px;
+}
+
+nav, nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons, nav a.button-collapse i{  
+  height: 94px;
+  line-height: 94px;
+}
+
+.side-nav{
+    background: url('../img/textura2.png');
+}
+
+.side-nav li>a{
+    font-style: normal;
+    color:#fff;
+    font-weight: 100;
+}
+
+.side-nav li > a:hover {
+  background-color: rgb(51,204,255, 0.8);
+  font-size: 16px;    
+}
+
+.carousel{margin-top: 20px;}
+
+/* MEDIA SMARTPHONES TAMANHO 480 OU MENOS*/
+@media only screen and (max-width: 480px) {
+  .banner {padding-top: 3rem;}
+  .banner h2 {font-size: 3rem;}   
+  .banner h3 {font-size: 1.5rem;}   
+  .banner p{font-size: 1rem;}  
+}
+
+/* MEDIA TABLETS A PARTIR DE */
+@media only screen and (min-width: 601px) {
+    .banner {padding-top: 5rem;}
+    .container{width: 85%;}
+}
+
+/* MEDIA LARGES A PARTIR DE */
+@media only screen and (min-width: 1440px) {
+   .banner {padding-top: 12rem;}
+   .banner h3 {font-size: 2rem;}
+   .container{width: 90%;}
+}
+
+/* MEDIA LARGES A PARTIR DE */
+@media only screen and (min-width: 1680px) {
+   .banner h3 {font-size: 2rem;}
+   .container{width: 90%;}
+}
+
+/* MEDIA LARGES A PARTIR DE */
+@media only screen and (max-width: 1920px) {
+   .banner h3 {font-size: 2rem;}
+   .container{width: 90%;}
+}
