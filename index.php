@@ -70,8 +70,8 @@
                     <h3>a número um em limpeza de sofás carpetes e cortinas</h3> 
                     <p class="white-text light">Preocupada com a sustentabilidade, a Renovadora introduziu um conceito inovador na limpeza e higienização de sofás, carpetes e cortinas com produtos de qualidade que não agridem o meio ambiente. Quer conhecer?</p>
                     <div class="row">
-                        <a href="#sobre" class="btn btn-large blue-logo"> Sobre nós </a>
-                        <a href="#contato" class="btn btn-large white black-text"> Contato </a>
+                        <a href="#sobre" class="btn btn-large blue-logo btnblue"> Sobre nós </a>
+                        <a href="#contato" class="btn btn-large btnwhite"> Contato </a>
                     </div><!--row-->  
                </div><!--col s12 center-->          
           </div><!--row container banner-->    

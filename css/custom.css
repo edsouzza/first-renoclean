@@ -4,7 +4,10 @@ html,body {height: 100%;}
 
 /* COLORS */
 .blue-logo{background-color: #33ccff; margin-right: 15px;}
-.btn { border-radius: 4px;}
+.btn { border-radius: 4px; transition: .5s;}
+.btnblue:hover{background-color: #008dbc;}
+.btnwhite{background-color: #fff; color: #333;}
+.btnwhite:hover{background-color: #00a3da; color: #fff;}
 
 /* LOGO */
 .logo_text{font-size: 0; margin: 0;}
