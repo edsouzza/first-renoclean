@@ -2,7 +2,7 @@
 <html lang="pt-br">
    <head>
        <meta charset="utf-8">
-       <meta name="viewport" content="width=devide-width, initial-scale=1">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="icon" href="https://www.renovadorarenoclean.com.br/img/favicon.png"> 
        <title>Renovadora RenoClean</title>
        <meta name="description" content="A melhor no segmento em limpeza de tapetes e carpetes do Brasil, sempre honrando e atendendo com eficiência conheça-nos e seja feliz.">
