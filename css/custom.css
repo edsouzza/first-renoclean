@@ -227,6 +227,7 @@ nav i.material-icons, nav a.button-collapse i{
    .container{width: 90%;}
 }
 
+/* ATE 600px */
 @media (max-width: 600px) {
   .box-cookies {
       width: calc(100% - 20px);
@@ -235,10 +236,28 @@ nav i.material-icons, nav a.button-collapse i{
   }
 }
 
+/* A PARTIR DE 768px */
 @media (min-width: 768px) { 
   .box-cookies{
     flex-direction: row;
     max-width: 100%;
     gap: 3rem;
+  }
+}
+
+@media (max-width: 1200px) { 
+  #btnBurger{
+    display: block;
+  }
+  #menuDesktop{
+    display: none;
+  }
+
+}
+
+/* Estilos para telas maiores que 1200px */
+@media (min-width: 1201px) {
+  .navbar-fixed {
+    display: block;
   }
 }

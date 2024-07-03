@@ -45,7 +45,7 @@
                   <h1 class="logo_text">Renovadora RenoClean a número 1 no segmento de limpeza de sofas</h1>
                   <a href=""><img  class="logo_img" src="img/logo.png" title="RenoClean" alt="RenoClean"></a>
 
-                  <ul class="right light hide-on-med-and-down">
+                  <ul class="right light hide-on-med-and-down" id="menuDesktop">
                     <li><a href="#home"><i class="material-icons left">home</i>Home</a></li>
                     <li><a href="#sobre"><i class="material-icons left">group</i>Sobre a Renovadora</a></li>
                     <li><a href="#servicos"><i class="material-icons left">weekend</i>Serviços</a></li>
@@ -55,7 +55,7 @@
                     <li><a href="assets/Politica-de-Cookies.pdf" target="_blank" rel="noreferrer noopener"><i class="material-icons left">description</i>Política Privacidade</a></li>                         
                   </ul>
                   
-                  <a href="#" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>  
+                  <a href="#" data-activates="menu-mobile" class="button-collapse right" id="btnBurger"><i class="material-icons">menu</i></a>  
               </div><!--nav-wrapper container--> 
           </nav>
         </div> <!--navbar-fixed-->   
