@@ -24,7 +24,7 @@ html,body {height: 100%;}
 .home .color-text{color: #33ccff;}/*texto h2 com nome da empresa em azul da marca*/
 
 /* HOME BANNER */
-.banner {margin-top: 30px;}
+.banner {margin-top: 30px; position: relative;}
 .banner h2{font-size: 5rem; font-weight: 900; text-transform: uppercase; color: #33ccff;}
 .banner h3{font-size: 2.3rem; font-weight: 900; text-transform: uppercase; color: #fff;}
 .banner p{font-size: 1.5rem; line-height: 1.8rem;}
