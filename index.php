@@ -56,6 +56,7 @@
                   </ul>
                   
                   <a href="#" data-activates="menu-mobile" class="button-collapse right" id="btnBurger"><i class="material-icons">menu</i></a>  
+                  <a href="#" data-activates="menu-mobile" class="button-collapse right hide" id="btnClose"><i class="material-icons">close</i></a>  
               </div><!--nav-wrapper container--> 
           </nav>
         </div> <!--navbar-fixed-->   
