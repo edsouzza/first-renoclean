@@ -20,7 +20,7 @@ html,body {height: 100%;}
 .home .color-text{color: #33ccff;}/*texto h2 com nome da empresa em azul da marca*/
 
 /* HOME BANNER */
-.banner {margin-top: 30px;}
+.banner {margin-top: 30px; position: relative;}
 .banner h2{font-size: 5rem; font-weight: 900; text-transform: uppercase; color: #33ccff;}
 .banner h3{font-size: 2.3rem; font-weight: 900; text-transform: uppercase; color: #fff;}
 .banner p{font-size: 1.5rem; line-height: 1.8rem;}
@@ -31,14 +31,50 @@ html,body {height: 100%;}
     100% {background-image: url('../img/bg1.jpg');}
 }
 
-/* BOX POLITICA DE PRIVACIDADE*/
-.box-cookies {width:100%; height: 90px; position: absolute; bottom: 0;}
+/* BOTÃO POLITICA DE PRIVACIDADE*/
+/* .box-cookies {width:100%; height: 90px; position: absolute; bottom: 0;}
 .box-cookies {padding: 10px 0;}
 .box-cookies {background-color: rgba(110, 110, 110, 0.3)};
 .box-cookies {font-size: 1.2rem;}
-/* BOTÃO POLITICA DE PRIVACIDADE*/
 .btn-cookies {display:inline;  background-color: #fff; padding: 10px 25px; border-radius: 3px; float: right; margin-top: -55px; margin-right: 300px;}
-.btn-cookies { color:black; font-weight: 500; cursor: pointer;}
+.btn-cookies { color:black; font-weight: 500; cursor: pointer;} */
+
+/* BOX POLITICA DE PRIVACIDADE*/
+/* APARENCIA NORMAL EM TODOS OS DISPOSITIVOS */
+.box-cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(110, 110, 110, 0.3);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box-cookies-text {
+    margin-bottom: 20px;
+}
+.box-cookies-text a {
+    color: #33ccff;
+    text-decoration: none;
+}
+.btn-cookies {
+    padding: 10px 20px;
+    background-color:#33ccff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;    
+}
+.btn-cookies:hover {
+    background-color: #0056b3;
+}
 
 /*TITULO E PARAGRAFO*/
 .titulo {font-size: 2rem; text-transform: uppercase;}
@@ -160,4 +196,26 @@ nav i.material-icons, nav a.button-collapse i{
 @media only screen and (max-width: 1920px) {
    .banner h3 {font-size: 2rem;}
    .container{width: 90%;}
+}
+
+@media only screen and (max-width: 1200px) {
+   .navbar{ display: none; }
+}
+
+/* A PARTIR DE 768px */
+@media (min-width: 768px) {
+    .box-cookies {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 40px;
+    }
+    .box-cookies-text {
+        margin-bottom: 0;
+        max-width: 70%;
+        text-align: left;
+    }
+    .btn-cookies {
+        margin-left: 20px;
+        margin-right: 3rem;
+    }
 }
