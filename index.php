@@ -16,13 +16,16 @@
        <meta property="og:description"  content="A melhor no segmento em limpeza de tapetes e carpetes do Brasil, sempre honrando e atendendo com eficiência conheça-nos e seja feliz.">
                                   
        <!--GOOGLE ICONS-->
-       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">       
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">     
+
        <!-- FONT AWESOME -->
        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+       
        <!--MATERIALIZE CSS-->
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+              
        <!--CUSTOM CSS-->
-       <link rel="stylesheet" href="css/custom.css">       
+       <link rel="stylesheet" href="css/custom.css?v=1.1">       
   
    </head>
    <body>
