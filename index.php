@@ -2,7 +2,7 @@
 <html lang="pt-br">
    <head>
        <meta charset="utf-8">
-       <meta name="viewport" content="width=devide-width, initial-scale=1">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="icon" href="https://www.renovadorarenoclean.com.br/img/favicon.png"> 
        <title>Renovadora RenoClean</title>
        <meta name="description" content="A melhor no segmento em limpeza de tapetes e carpetes do Brasil, sempre honrando e atendendo com eficiência conheça-nos e seja feliz.">
@@ -45,7 +45,7 @@
                   <h1 class="logo_text">Renovadora RenoClean a número 1 no segmento de limpeza de sofas</h1>
                   <a href=""><img  class="logo_img" src="img/logo.png" title="RenoClean" alt="RenoClean"></a>
 
-                  <ul class="right light hide-on-med-and-down">
+                  <ul class="right light hide-on-med-and-down" id="menuDesktop">
                     <li><a href="#home"><i class="material-icons left">home</i>Home</a></li>
                     <li><a href="#sobre"><i class="material-icons left">group</i>Sobre a Renovadora</a></li>
                     <li><a href="#servicos"><i class="material-icons left">weekend</i>Serviços</a></li>
@@ -55,7 +55,7 @@
                     <li><a href="assets/Politica-de-Cookies.pdf" target="_blank" rel="noreferrer noopener"><i class="material-icons left">description</i>Política Privacidade</a></li>                         
                   </ul>
                   
-                  <a href="#" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>  
+                  <a href="#" data-activates="menu-mobile" class="button-collapse right" id="btnBurger"><i class="material-icons">menu</i></a>  
               </div><!--nav-wrapper container--> 
           </nav>
         </div> <!--navbar-fixed-->   
@@ -70,8 +70,8 @@
                     <h3>a número um em limpeza de sofás carpetes e cortinas</h3> 
                     <p class="white-text light">Preocupada com a sustentabilidade, a Renovadora introduziu um conceito inovador na limpeza e higienização de sofás, carpetes e cortinas com produtos de qualidade que não agridem o meio ambiente. Quer conhecer?</p>
                     <div class="row">
-                        <a href="#sobre" class="btn btn-large blue-logo"> Sobre nós </a>
-                        <a href="#contato" class="btn btn-large white black-text"> Contato </a>
+                        <a href="#sobre" class="btn btn-large blue-logo btnblue"> Sobre nós </a>
+                        <a href="#contato" class="btn btn-large btnwhite"> Contato </a>
                     </div><!--row-->  
                </div><!--col s12 center-->          
           </div><!--row container banner-->    

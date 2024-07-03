@@ -4,10 +4,14 @@ html,body {height: 100%;}
 
 /* COLORS */
 .blue-logo{background-color: #33ccff; margin-right: 15px;}
+.btn { border-radius: 4px; transition: .5s;}
+.btnblue:hover{background-color: #008dbc;}
+.btnwhite{background-color: #fff; color: #333;}
+.btnwhite:hover{background-color: #00a3da; color: #fff;}
 
 /* LOGO */
 .logo_text{font-size: 0; margin: 0;}
-.logo_img{width: 85px; height: 85px;}
+.logo_img{width: 85px; height: 85px; margin-top: 5px;}
 
 /* MENU */
 .navbar {background-color: transparent; transition: background 0.5s linear;}
@@ -31,50 +35,75 @@ html,body {height: 100%;}
     100% {background-image: url('../img/bg1.jpg');}
 }
 
-/* BOTÃO POLITICA DE PRIVACIDADE*/
-/* .box-cookies {width:100%; height: 90px; position: absolute; bottom: 0;}
-.box-cookies {padding: 10px 0;}
-.box-cookies {background-color: rgba(110, 110, 110, 0.3)};
-.box-cookies {font-size: 1.2rem;}
-.btn-cookies {display:inline;  background-color: #fff; padding: 10px 25px; border-radius: 3px; float: right; margin-top: -55px; margin-right: 300px;}
-.btn-cookies { color:black; font-weight: 500; cursor: pointer;} */
+/*DEFINIÇÃO DA BARRA DO SCROLL PERSONALIZADA*/
+::-webkit-scrollbar{
+  /*Largura da barra do scroll*/
+	width: 10px;
+}
+::-webkit-scrollbar-track{
+  /*Trilho do scroll*/
+	background-color : #333;
+}
+/*DEFINIÇÃO DA BARRA DO SCROLL PERSONALIZADA*/
+::-webkit-scrollbar-thumb{
+  /*Cor da barra do scroll*/
+  background-color : #33ccff;
+}
+::-webkit-scrollbar-thumb:hover{
+  /*Cor da barra do scroll ao passar o mouse*/
+  background-color : #0eaade;
+}
+/*DEFINIÇÃO DA BARRA DO SCROLL PERSONALIZADA*/
 
 /* BOX POLITICA DE PRIVACIDADE*/
-/* APARENCIA NORMAL EM TODOS OS DISPOSITIVOS */
 .box-cookies {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(110, 110, 110, 0.3);
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 40px);
+  max-width: 768px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.box-cookies-text {
-    margin-bottom: 20px;
+
+.box-cookies p {
+  margin: 0 0 10px 0;
+  text-align: center;
 }
-.box-cookies-text a {
-    color: #33ccff;
-    text-decoration: none;
+
+.box-cookies a {  
+  color: #0eaade;
+  text-decoration: none;
 }
+
+.box-cookies a:hover {
+  color: #33ccff;
+}
+
 .btn-cookies {
-    padding: 10px 20px;
-    background-color:#33ccff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-    font-weight: 500;    
+  background-color: #33ccff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: 2s ease;
 }
+
 .btn-cookies:hover {
-    background-color: #0056b3;
+  background-color: #05799f;
 }
+/* BOX POLITICA DE PRIVACIDADE*/
+
 
 /*TITULO E PARAGRAFO*/
 .titulo {font-size: 2rem; text-transform: uppercase;}
@@ -198,24 +227,37 @@ nav i.material-icons, nav a.button-collapse i{
    .container{width: 90%;}
 }
 
-@media only screen and (max-width: 1200px) {
-   .navbar{ display: none; }
+/* ATE 600px */
+@media (max-width: 600px) {
+  .box-cookies {
+      width: calc(100% - 20px);
+      padding: 15px;
+      bottom: 10px;
+  }
 }
 
 /* A PARTIR DE 768px */
-@media (min-width: 768px) {
-    .box-cookies {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 20px 40px;
-    }
-    .box-cookies-text {
-        margin-bottom: 0;
-        max-width: 70%;
-        text-align: left;
-    }
-    .btn-cookies {
-        margin-left: 20px;
-        margin-right: 3rem;
-    }
+@media (min-width: 768px) { 
+  .box-cookies{
+    flex-direction: row;
+    max-width: 100%;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 1200px) { 
+  #btnBurger{
+    display: block;
+  }
+  #menuDesktop{
+    display: none;
+  }
+
+}
+
+/* Estilos para telas maiores que 1200px */
+@media (min-width: 1201px) {
+  .navbar-fixed {
+    display: block;
+  }
 }
